@@ -1,0 +1,27 @@
+print('_/_/_CALCULADORA_\_\_\_')
+print(1, '- Soma')
+print(2, '- Subtração')
+print(3, '- Multiplicação')
+print(4, '- Divisão')
+
+def desafio():
+    opcao=int(input('Entre com o número:'))
+    numero1=int(input('Digite o primeiro número'))
+    numero2=int(input('Digite o primeiro número'))
+    if opcao==1:
+        somaresultado1=numero1+numero2
+        print('O resultado da soma é:',somaresultado1)        
+    elif opcao==2:
+        somaresultado2=(numero1-numero2)
+        print('O resultado da subtração é:',somaresultado2)        
+    elif opcao==3:
+        somaresultado3=(numero1*numero2)
+        print('O resultado multiplicação é:',somaresultado3)        
+    elif opcao==4:
+        somaresultado4=(numero1/numero2)
+        print('O resultado divisão é:',somaresultado4)
+    elif opcao>5:
+        print('Opção invalida')
+        
+        
+desafio()  
